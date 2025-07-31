@@ -1,23 +1,34 @@
 # ifcjs-react
 
-Sample project to show how to use [web-ifc-viewr](https://github.com/ThatOpen/web-ifc-viewer) in a React app.
+This project is a fork by [`ktaroabobon/ifcjs-react`](https://github.com/ktaroabobon/ifcjs-react). Sample project to show how to use [web-ifc-viewr](https://github.com/ThatOpen/web-ifc-viewer) in a React app.
 
-## Usage
+## Dependencies
 
-install
+The dependencies below are critical for application works well for development and production.
 
-```bash
-git clone https://github.com/ktaroabobon/ifcjs-react.git
-```
+- Node >= 20
+- Yarn CLI (Package Manager)
 
-setup
+## Getting Started
 
-```bash
-make setup
-```
+### Instalation
 
-preview
+**Clone this repository**
 
 ```bash
-make build/serve
+git clone https://github.com/enriqueprieto/ifcjs-react-router.git
 ```
+
+**Install the dependencies**
+
+```bash
+yarn install
+```
+
+**Run the application**
+
+```bash
+yarn serve
+```
+
+Well done, now you can visit [http://localhost:5173/ifcjs-react/](http://localhost:5173/ifcjs-react/)
